@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-poem"
+version = "0.1.0"
+description = ""
+authors = ["deven367 <masterdeven@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_poem"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
